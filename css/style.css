@@ -1525,9 +1525,13 @@ a {
     margin: 450px auto 60px;
     width: 350px;
     height: 350px;
-    padding-left: initial;
     padding: 0 10px;
   }
+
+  .price_table tbody {
+    width: 330px;
+    height: 350px;
+  } 
 
   .price_table::before { 
     width: 300px;
