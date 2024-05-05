@@ -1501,6 +1501,7 @@ a {
     width: 350px;
     height: 940px;
     margin: 30px auto 30px;
+    position: relative;
   }
   .price_explain {
     width: 330px;
@@ -1523,7 +1524,7 @@ a {
     position: relative;
     margin: 450px auto 35px;
     width: 350px;
-    height: 200px;
+    height: 300px;
     padding: 0 10px;
   }
 
@@ -1535,7 +1536,7 @@ a {
   .price_table::before { 
     width: 300px;
     left: 25px;
-    top: -5px;
+    top: -20px;
   }
   .price_table::after { 
     width: 300px;
@@ -1555,6 +1556,8 @@ a {
     display: none;
   }
   .price_button {
+    position: absolute;
+    bottom: -20px;
     padding: 25px 0;
     width: 300px;
     height: 80px;
