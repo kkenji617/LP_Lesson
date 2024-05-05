@@ -1499,7 +1499,7 @@ a {
 @media screen and (max-width: 431px) {
   .price_box {
     width: 350px;
-    height: 940px;
+    height: 800px;
     margin: 30px auto 30px;
     position: relative;
   }
@@ -1524,7 +1524,7 @@ a {
     position: relative;
     margin: 450px auto 35px;
     width: 350px;
-    height: 250px;
+    height: 200px;
     padding: 0 10px;
   }
 
@@ -1557,10 +1557,11 @@ a {
   }
   .price_button {
     position: absolute;
-    bottom: -20px;
-    padding: 25px 0;
+    bottom: 28px;
+    left: 25px;
+    padding: 20px 0;
     width: 300px;
-    height: 80px;
+    height: 70px;
   }
   .price_table .sp_br {
     display: inline;
