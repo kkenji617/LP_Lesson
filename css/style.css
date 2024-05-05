@@ -1501,14 +1501,15 @@ a {
 @media screen and (max-width: 431px) {
   .price_box {
     width: 350px;
-    height: 980px;
+    height: 940px;
+    margin: 30px auto 30px;
   }
   .price_explain {
     width: 330px;
     left: 10px;
   }
   .price_img {
-    top: 250px;
+    top: 260px;
     right: 65px;
   }
   .tab_wrap {
@@ -1522,7 +1523,7 @@ a {
   }
   .price_table {
     position: relative;
-    margin: 450px auto 60px;
+    margin: 450px auto 35px;
     width: 350px;
     height: 200px;
     padding: 0 10px;
@@ -1536,10 +1537,12 @@ a {
   .price_table::before { 
     width: 300px;
     left: 25px;
+    top: -5px;
   }
   .price_table::after { 
     width: 300px;
     left: 25px;
+    bottom: -20px;
   }
   .price_table th {
    font-size: 18px;
