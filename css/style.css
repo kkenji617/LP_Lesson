@@ -978,6 +978,9 @@ a {
   #support .text h3 {
     font-size: 16px;
   }
+  #support .text .sp_br {
+    display: inline;
+  }
   .support_visual {
     display: block;
     margin-bottom: 60px;
