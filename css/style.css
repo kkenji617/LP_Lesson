@@ -330,11 +330,11 @@ a {
   position: relative;
 }
 .small_number {
-  font-size: 0.2em;
-  padding-left: 2px;
+  font-size: 10px;
+  padding-left: 1px;
   line-height: 0.2em;
   position: absolute;
-  top: 10px;
+  top: 8px;
   }
 
 .mainvisual tr {
@@ -372,7 +372,7 @@ a {
   font-weight: bold;
   color: #0c0c0c;
   margin-right: 25px;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 .unit2 {
@@ -445,14 +445,14 @@ a {
     margin-right: 40px;
   }
   .small_number2 {
-    font-size: 8px;
-    top: 0px;
+    font-size: 10px;
+    top: -2px;
     left: 60px;
   }
   .small_number3 {
-    font-size: 8px;
-    top: 0px;
-    left: 290px;
+    font-size: 10px;
+    top: -2px;
+    left: 291px;
    }
 
 }
@@ -724,7 +724,7 @@ a {
 
 .img2 {
   margin: 50px auto;
-  width: 890px;
+  width: 850px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -742,7 +742,7 @@ a {
 }
 
 .img2 {
-  width: 80%;
+  width: 70%;
   }
 }
 @media screen and (max-width: 960px) {
@@ -792,6 +792,11 @@ a {
   .service-text2 .pc_br {
     display: none;
   }
+
+.img2 {
+  width: 70%;
+  min-width: 375px;
+  }
 }
 
 @media screen and (max-width: 431px) {
@@ -834,8 +839,11 @@ a {
     top: 15px;
     width: 240px;
   }
-}
-
+  .img2 {
+    width: 70%;
+    min-width: 335px;
+    }
+  }
 
 /*support*/
 #support {
