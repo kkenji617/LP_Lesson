@@ -976,7 +976,7 @@ a {
   }
   .support_content {
     width: 300px;
-    margin: 0 57.5px 0 17.5px;
+    margin: 0 auto;
   }
   .support_content .pc_br {
     display: none;
@@ -989,11 +989,11 @@ a {
   .support_visual h3 {
     width: 300px;
     font-size: 16px;
-    margin: 0 0 10px 20px;
+    margin: 0 0 10px 0;
   }
   .support_visual p {
     width: 300px;
-    margin: 0 0 40px 20px;
+    margin: 0 0 40px 0;
     font-size: 14px;
     line-height: 1.3em;
   }
