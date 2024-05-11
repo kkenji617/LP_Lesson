@@ -446,13 +446,13 @@ a {
   }
   .small_number2 {
     font-size: 10px;
-    position: relavive;
+    position: relative;
     top: -18px;
     left: -60px;
   }
   .small_number3 {
     font-size: 10px;
-    position: relatve;
+    position: relative;
     top: -18px;
     left: -34px;
    }
