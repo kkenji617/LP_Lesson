@@ -45,7 +45,7 @@ $(function() {
 
 $(function() {
   let ham = $('#js-hamburger');
-  let nav = $('#js-nav');
+  let nav = $('.header__nav');
   let link = $(".nav-items__item a");
   // const menu = $(".header__nav");
   ham.on('click', function () { //ハンバーガーメニューをクリックしたら

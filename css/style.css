@@ -1671,7 +1671,7 @@ footer li {
   footer {
     display: block;
     width: 100%;
-    padding: 0 20px;
+    padding: 20px 20px 0px;
     margin: 0px auto;
   }
   .site-title2 {
@@ -1685,7 +1685,7 @@ footer li {
   footer ul {
     display: block;
     padding: 0;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
 
   footer li {
